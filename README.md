@@ -46,7 +46,7 @@ python main.py
 # How to Get NODEPAY TOKEN Using Android Device
 
 1. Download and install [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en).
-2. Login to the [NODEPAY in DESKTOP MODE ](https://app.nodepay.ai/register?ref=g1MS9G1hzzSKKHl). and go to the dashboard.
+2. Login to the [NODEPAY AI](https://app.nodepay.ai/register?ref=g1MS9G1hzzSKKHl). in DESKTOP MODE and go to the dashboard.
 3. Open the **Developer Tools** in the Kiwi browser.
 4. Go to the **APPLICATION** tab 
 5. You will receive your TOKEN, which looks like this: `"eyJhbGciOiJxxxxx........"`
@@ -77,20 +77,30 @@ pkg install -y rust binutils
 
 ## How to Run NODEPAY HACK VIP on Termux 
 
+```bash
 pkg update && pkg upgrade -y
+```
 
+```bash
 pkg install python rust git -y
-
+```
+```bash
 pkg install nano
-
+```
+```bash
 git clone https://github.com/OptimalGrowYT/NODEPAY-HACK-VIP.git
-
+```
+```bash
 cd NODEPAY-HACK-VIP
-
+```
+```bash
 nano TOKEN.txt
-
+```
+```bash
 pip install -r requirements.txt
-
+```
+```bash
 python3 main.py
+```
 
 
