@@ -1,0 +1,9 @@
+cloudscraper==1.2.71
+loguru==0.7.2
+asyncio
+cloudscraper
+json
+time
+uuid
+base64
+colorama
